@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <div >
+            <img  id="logo" src="patikaLogo.png">
+        </div>
+    </header>
+    <section id="formYapi">
+       <form  class="form" id="form">
+            <div class="form-control">
+                <label for="name" >İsminizi Giriniz : </label>
+                <input type="text" placeholder="" id="userName">
+                <small  >Error Mesaage</small>
+            </div>
+
+            <div class="form-control">
+                <label for="email" >Mail Adresini Giriniz: </label>
+                <input type="email" placeholder="" id="email">
+                <small   >Error Mesaage</small>
+            </div>
+
+            <div class="form-control">
+                <label for="birthday">Dogum Gununuzu Seciniz:</label>
+                <input type="date" id="birthday" name="birthday">
+                <small  >Error Mesaage</small>
+            </div>
+
+            <div class="form-control">
+                <label for="city">Yasadiginiz Sehri Seciniz :</label>
+                <select id="city" name="cityList" form="cityForm">
+                    <option value="istanbul">istanbul</option>
+                    <option value="Ankara">Ankara</option>
+                    <option value="Izmir">Izmir</option>
+                    <option value="Diger">Diger</option>
+                  </select>
+                <small >Error Mesaage</small>
+            </div>
+           
+            <div class="form-control">
+                <label for="password" >Lutfen Sifre Olusturun : </label>
+                <input type="password" placeholder="" id="password">
+                <small  >Error Mesaage</small>
+            </div>
+
+            <div class="form-control">
+                <label for="passwordCheck" >Lutfen Sifrenizi Dogrulayin : </label>
+                <input type="password" placeholder="" id="password2">
+                <small >Error Mesaage</small>
+            </div>
+
+
+            <button id="btn">Gonder</button>
+
+       </form>
+
+
+    </section>
+
+    
+
+</body>
+<script src="index.js"></script>
+
+</html>

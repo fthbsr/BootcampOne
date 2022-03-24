@@ -1,0 +1,98 @@
+#logo {    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+        
+}
+
+
+#text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+
+}
+body {
+    background-color: #DEB887;
+}
+
+#formYapi {
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 560px;
+    height: 720px;
+    border: 1px solid #DEB887;
+    border-radius: 32px;
+}
+
+.form{
+    padding-top: 5% ;
+    padding-left: 12%;
+}
+
+.form-control{
+    margin-bottom: 10px;
+}
+
+.form-control label{
+    display: inline-block;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.form-control input{
+    border: 2px solid black;
+    display: block;
+    font-size: 20px;
+    width: 60%;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.form-control small {
+    color: red;
+    font-size: 20px;
+    padding-top: 5px;
+    display: block;
+    visibility: hidden;
+    
+}
+
+
+.hide{
+    visibility: hidden;
+}
+
+
+
+.form-control select{
+    margin-left: 6px;
+    font-size: 22px;
+    
+}
+
+.form button{
+    
+    background-color:  #DEB887;
+    color: blue;
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-left: 7%;
+}
+.form-control.error small{
+    visibility: visible;
+}
+
+.form-control.error input {
+    border-color: #e74c3c;
+
+ }
+
+ .form-control.success input {
+	border-color: #2ecc71;
+ }
